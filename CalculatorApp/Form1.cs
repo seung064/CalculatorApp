@@ -12,6 +12,7 @@ namespace CalculatorApp
 {
     public partial class Form1 : Form
     {
+        Operation op = new Operation();
         public Form1()
         {
             InitializeComponent();
@@ -20,6 +21,11 @@ namespace CalculatorApp
         private void Form1_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void button_remainder_Click(object sender, EventArgs e)
+        {
+            op.Remainder(10, 3);
         }
     }
 }
