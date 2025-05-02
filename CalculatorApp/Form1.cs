@@ -18,14 +18,31 @@ namespace CalculatorApp
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
 
+        //숫자 button이랑 +, -, *, ÷, % 클릭 시 동작하는 함수입니다!
+        private void button_Click(object sender, EventArgs e)
+        {
+            char[] op = {'+', '-', '*', '÷', '%'};
+            int idx = textBox1.Text.Length;
+            if (idx != 0 && op.Contains(textBox1.Text[idx - 1]) && op.Contains(((Button)sender).Text[0]))
+            {
+                Console.WriteLine(idx + " TEST : " + textBox1.Text[idx - 1] + " || " + op.Contains(textBox1.Text[idx - 1]) + "\r\n");
+                char[] chars = textBox1.Text.ToCharArray();
+                chars[idx - 1] = ((Button)sender).Text[0];
+                textBox1.Text = new string(chars);
+                return;
+            }
+            textBox1.Text += ((Button)sender).Text;
         }
 
-        private void button_remainder_Click(object sender, EventArgs e)
+
+        // = button 클릭 시 동작하는 함수입니다! 연산을 수행하도록 하는 함수예요!
+        private void button_Result_Click(object sender, EventArgs e)
         {
-            op.Remainder(10, 3);
+            int result;
+            result = op.parseEquation(textBox1.Text);
+            textBox1.Text = result.ToString();
         }
+        
     }
 }
