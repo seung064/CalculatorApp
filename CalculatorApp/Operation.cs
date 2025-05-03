@@ -16,7 +16,7 @@ namespace CalculatorApp
             string pattern = "[+\\-*/%]";
             string[] splited = Regex.Split(equation, pattern);
             MatchCollection matches = Regex.Matches(equation, pattern);
-            
+
             //----------테스트------------
             foreach (string s in splited)
             {
@@ -38,7 +38,7 @@ namespace CalculatorApp
 
             //아래와 같이 만들어보실 수 있으실 거예요!
             int result = 0;
-            if ( op == '+')
+            if (op == '+')
             {
                 result = Add(a, b);
             }
@@ -71,6 +71,33 @@ namespace CalculatorApp
         public int Remainder(int a, int b)
         {
             return a % b;
+        }
+
+        public double InverseX(double a) // 1/x
+        {
+            return 1 / a;
+        }
+
+        public double Square(double a) // x^2
+        {
+            return Math.Pow(a, 2);
+        }
+
+        public double Sqrt(double a) // √x
+        {
+            return Math.Sqrt(a);
+        }
+
+        public int ToggleSign(int a) // +/-
+        {
+            if (a == 0)
+            {
+                return 0;
+            }
+            else
+            {
+                return -a;
+            }
         }
     }
 }

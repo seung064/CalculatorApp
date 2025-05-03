@@ -52,8 +52,9 @@
             this.Add = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox_result = new System.Windows.Forms.TextBox();
             this.button_mode = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // button_Remainder
@@ -77,6 +78,7 @@
             this.button_ClearEntry.Tag = "";
             this.button_ClearEntry.Text = "CE";
             this.button_ClearEntry.UseVisualStyleBackColor = true;
+            this.button_ClearEntry.Click += new System.EventHandler(this.button_ClearEntry_Click);
             // 
             // button_ClearAll
             // 
@@ -87,6 +89,7 @@
             this.button_ClearAll.TabIndex = 3;
             this.button_ClearAll.Text = "C";
             this.button_ClearAll.UseVisualStyleBackColor = true;
+            this.button_ClearAll.Click += new System.EventHandler(this.button_ClearAll_Click);
             // 
             // button_delete
             // 
@@ -97,6 +100,7 @@
             this.button_delete.TabIndex = 2;
             this.button_delete.Text = "⌫";
             this.button_delete.UseVisualStyleBackColor = true;
+            this.button_delete.Click += new System.EventHandler(this.button_delete_Click);
             // 
             // button_Sqrt
             // 
@@ -107,6 +111,7 @@
             this.button_Sqrt.TabIndex = 7;
             this.button_Sqrt.Text = "√x";
             this.button_Sqrt.UseVisualStyleBackColor = true;
+            this.button_Sqrt.Click += new System.EventHandler(this.button_Sqrt_Click);
             // 
             // button_Divide
             // 
@@ -128,6 +133,7 @@
             this.button_Square.TabIndex = 5;
             this.button_Square.Text = "x²";
             this.button_Square.UseVisualStyleBackColor = true;
+            this.button_Square.Click += new System.EventHandler(this.button_Square_Click);
             // 
             // button_InverseX
             // 
@@ -138,6 +144,7 @@
             this.button_InverseX.TabIndex = 4;
             this.button_InverseX.Text = "1/x";
             this.button_InverseX.UseVisualStyleBackColor = true;
+            this.button_InverseX.Click += new System.EventHandler(this.button_InverseX_Click);
             // 
             // button6
             // 
@@ -268,6 +275,7 @@
             this.button_ToggleSign.TabIndex = 20;
             this.button_ToggleSign.Text = "+/-";
             this.button_ToggleSign.UseVisualStyleBackColor = true;
+            this.button_ToggleSign.Click += new System.EventHandler(this.button_ToggleSign_Click);
             // 
             // button3
             // 
@@ -313,14 +321,15 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button_Click);
             // 
-            // textBox1
+            // textBox_result
             // 
-            this.textBox1.Location = new System.Drawing.Point(12, 54);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(396, 96);
-            this.textBox1.TabIndex = 24;
+            this.textBox_result.Location = new System.Drawing.Point(12, 91);
+            this.textBox_result.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.textBox_result.Multiline = true;
+            this.textBox_result.Name = "textBox_result";
+            this.textBox_result.Size = new System.Drawing.Size(434, 59);
+            this.textBox_result.TabIndex = 24;
+            this.textBox_result.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // button_mode
             // 
@@ -331,13 +340,21 @@
             this.button_mode.TabIndex = 25;
             this.button_mode.UseVisualStyleBackColor = true;
             // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(311, 35);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(134, 21);
+            this.textBox1.TabIndex = 26;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(535, 624);
-            this.Controls.Add(this.button_mode);
             this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.button_mode);
+            this.Controls.Add(this.textBox_result);
             this.Controls.Add(this.button_dot);
             this.Controls.Add(this.button_Result);
             this.Controls.Add(this.button0);
@@ -395,8 +412,9 @@
         private System.Windows.Forms.Button Add;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBox_result;
         private System.Windows.Forms.Button button_mode;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
 
