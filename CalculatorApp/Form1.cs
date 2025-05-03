@@ -22,7 +22,7 @@ namespace CalculatorApp
         //숫자 button이랑 +, -, *, ÷, % 클릭 시 동작하는 함수입니다!
         private void button_Click(object sender, EventArgs e)
         {
-            char[] op = {'+', '-', '*', '÷', '%'};
+            char[] op = { '+', '-', '*', '÷', '%' };
             int idx = textBox_result.Text.Length;
             if (idx != 0 && op.Contains(textBox_result.Text[idx - 1]) && op.Contains(((Button)sender).Text[0]))
             {
@@ -63,7 +63,7 @@ namespace CalculatorApp
         // CE button 클릭시 동작하는 함수 / 현재작성 중인 식 삭제
         private void button_ClearEntry_Click(object sender, EventArgs e)
         {
-            // 해결중...
+            //해결못함
         }
 
         // 1/x button 클릭시 동작하는 함수 / 1/x 계산

@@ -42,7 +42,22 @@ namespace CalculatorApp
             {
                 result = Add(a, b);
             }
-
+            else if (op == '-')
+            {
+                result = Minus(a, b);
+            }
+            else if (op == '*')
+            {
+                result = Multiply(a, b);
+            }
+            else if (op == '÷')
+            {
+                result = Divide(a, b);
+            }
+            else if (op == '%')
+            {
+                result = Remainder(a, b);
+            }
             return result;
         }
 
