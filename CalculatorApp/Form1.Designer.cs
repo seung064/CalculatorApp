@@ -54,6 +54,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.textBox_result = new System.Windows.Forms.TextBox();
             this.button_mode = new System.Windows.Forms.Button();
+            this.panelMain = new System.Windows.Forms.Panel();
             this.SuspendLayout();
             // 
             // button_Remainder
@@ -386,13 +387,23 @@
             this.button_mode.Size = new System.Drawing.Size(36, 31);
             this.button_mode.TabIndex = 25;
             this.button_mode.UseVisualStyleBackColor = true;
+            this.button_mode.Click += new System.EventHandler(this.button_mode_Click);
+            // 
+            // panelMain
+            // 
+            this.panelMain.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panelMain.Location = new System.Drawing.Point(0, 168);
+            this.panelMain.Name = "panelMain";
+            this.panelMain.Size = new System.Drawing.Size(463, 456);
+            this.panelMain.TabIndex = 26;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.ClientSize = new System.Drawing.Size(535, 624);
+            this.ClientSize = new System.Drawing.Size(463, 624);
+            this.Controls.Add(this.panelMain);
             this.Controls.Add(this.button_mode);
             this.Controls.Add(this.textBox_result);
             this.Controls.Add(this.button_dot);
@@ -454,6 +465,7 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TextBox textBox_result;
         private System.Windows.Forms.Button button_mode;
+        private System.Windows.Forms.Panel panelMain;
     }
 }
 

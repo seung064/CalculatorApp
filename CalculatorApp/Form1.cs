@@ -16,6 +16,7 @@ namespace CalculatorApp
         public Form1()
         {
             InitializeComponent();
+            panelMain.Visible = false;
         }
 
 
@@ -88,6 +89,32 @@ namespace CalculatorApp
         private void button_ToggleSign_Click(object sender, EventArgs e)
         {
             textBox_result.Text = op.ToggleSign(int.Parse(textBox_result.Text)).ToString();
+        }
+
+        // panelMain 함수
+        private void LoadUserControl(UserControl uc)
+        {
+            panelMain.Controls.Clear(); // 기존 userControl 제거
+            //panelMain.Visible = false; // panelMain false
+            uc.Dock = DockStyle.Fill; // uc(객체)가 패널을 가득 채움
+            panelMain.Controls.Add(uc); // 패널에 usercontrol 추가
+        }
+
+        // button_mode 클릭시 동작하는 함수 / panel 변환
+        private int form1 = 1;
+        private void button_mode_Click(object sender, EventArgs e)
+        {
+            if (form1 == 1)
+            {
+                panelMain.Visible = true;
+                LoadUserControl(new ScientificCalculatorControl());
+                form1 = 2;
+            }
+            else if(form1 == 2) 
+            {
+                panelMain.Visible = false;
+                form1 = 1;
+            }
         }
     }
 }
