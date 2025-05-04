@@ -61,7 +61,7 @@
             // 
             this.button_Remainder.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button_Remainder.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button_Remainder.Font = new System.Drawing.Font("Hancom MalangMalang Bold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button_Remainder.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button_Remainder.Location = new System.Drawing.Point(12, 189);
             this.button_Remainder.Name = "button_Remainder";
             this.button_Remainder.Size = new System.Drawing.Size(104, 64);
@@ -74,7 +74,7 @@
             // 
             this.button_ClearEntry.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button_ClearEntry.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button_ClearEntry.Font = new System.Drawing.Font("Hancom MalangMalang Bold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button_ClearEntry.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button_ClearEntry.Location = new System.Drawing.Point(122, 189);
             this.button_ClearEntry.Name = "button_ClearEntry";
             this.button_ClearEntry.Size = new System.Drawing.Size(104, 64);
@@ -88,7 +88,7 @@
             // 
             this.button_ClearAll.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button_ClearAll.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button_ClearAll.Font = new System.Drawing.Font("Hancom MalangMalang Bold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button_ClearAll.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button_ClearAll.Location = new System.Drawing.Point(232, 189);
             this.button_ClearAll.Name = "button_ClearAll";
             this.button_ClearAll.Size = new System.Drawing.Size(104, 64);
@@ -101,7 +101,7 @@
             // 
             this.button_delete.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button_delete.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button_delete.Font = new System.Drawing.Font("Hancom MalangMalang Bold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button_delete.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button_delete.Location = new System.Drawing.Point(342, 189);
             this.button_delete.Name = "button_delete";
             this.button_delete.Size = new System.Drawing.Size(104, 64);
@@ -114,7 +114,7 @@
             // 
             this.button_Sqrt.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button_Sqrt.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button_Sqrt.Font = new System.Drawing.Font("Hancom MalangMalang Bold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button_Sqrt.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button_Sqrt.Location = new System.Drawing.Point(232, 261);
             this.button_Sqrt.Name = "button_Sqrt";
             this.button_Sqrt.Size = new System.Drawing.Size(104, 64);
@@ -127,7 +127,7 @@
             // 
             this.button_Divide.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button_Divide.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button_Divide.Font = new System.Drawing.Font("Hancom MalangMalang Bold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button_Divide.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button_Divide.Location = new System.Drawing.Point(342, 261);
             this.button_Divide.Name = "button_Divide";
             this.button_Divide.Size = new System.Drawing.Size(104, 64);
@@ -140,7 +140,7 @@
             // 
             this.button_Square.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button_Square.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button_Square.Font = new System.Drawing.Font("Hancom MalangMalang Bold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button_Square.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button_Square.Location = new System.Drawing.Point(122, 261);
             this.button_Square.Name = "button_Square";
             this.button_Square.Size = new System.Drawing.Size(104, 64);
@@ -153,7 +153,7 @@
             // 
             this.button_InverseX.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button_InverseX.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button_InverseX.Font = new System.Drawing.Font("Hancom MalangMalang Bold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button_InverseX.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button_InverseX.Location = new System.Drawing.Point(12, 261);
             this.button_InverseX.Name = "button_InverseX";
             this.button_InverseX.Size = new System.Drawing.Size(104, 64);
@@ -166,7 +166,7 @@
             // 
             this.button6.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button6.Font = new System.Drawing.Font("Hancom MalangMalang Bold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button6.Location = new System.Drawing.Point(232, 403);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(104, 64);
@@ -179,7 +179,7 @@
             // 
             this.button_Subtract.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button_Subtract.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button_Subtract.Font = new System.Drawing.Font("Hancom MalangMalang Bold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button_Subtract.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button_Subtract.Location = new System.Drawing.Point(342, 403);
             this.button_Subtract.Name = "button_Subtract";
             this.button_Subtract.Size = new System.Drawing.Size(104, 64);
@@ -192,7 +192,7 @@
             // 
             this.button5.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button5.Font = new System.Drawing.Font("Hancom MalangMalang Bold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button5.Location = new System.Drawing.Point(122, 403);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(104, 64);
@@ -205,7 +205,7 @@
             // 
             this.button4.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button4.Font = new System.Drawing.Font("Hancom MalangMalang Bold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button4.Location = new System.Drawing.Point(12, 403);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(104, 64);
@@ -218,7 +218,7 @@
             // 
             this.button9.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button9.Font = new System.Drawing.Font("Hancom MalangMalang Bold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button9.Location = new System.Drawing.Point(232, 331);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(104, 64);
@@ -231,7 +231,7 @@
             // 
             this.button_Multiply.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button_Multiply.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button_Multiply.Font = new System.Drawing.Font("Hancom MalangMalang Bold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button_Multiply.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button_Multiply.Location = new System.Drawing.Point(342, 331);
             this.button_Multiply.Name = "button_Multiply";
             this.button_Multiply.Size = new System.Drawing.Size(104, 64);
@@ -244,7 +244,7 @@
             // 
             this.button8.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button8.Font = new System.Drawing.Font("Hancom MalangMalang Bold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button8.Location = new System.Drawing.Point(122, 331);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(104, 64);
@@ -257,7 +257,7 @@
             // 
             this.button7.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button7.Font = new System.Drawing.Font("Hancom MalangMalang Bold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button7.Location = new System.Drawing.Point(12, 331);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(104, 64);
@@ -270,7 +270,7 @@
             // 
             this.button_dot.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button_dot.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button_dot.Font = new System.Drawing.Font("Hancom MalangMalang Bold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button_dot.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button_dot.Location = new System.Drawing.Point(232, 546);
             this.button_dot.Name = "button_dot";
             this.button_dot.Size = new System.Drawing.Size(104, 64);
@@ -282,7 +282,7 @@
             // 
             this.button_Result.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button_Result.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button_Result.Font = new System.Drawing.Font("Hancom MalangMalang Bold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button_Result.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button_Result.Location = new System.Drawing.Point(342, 546);
             this.button_Result.Name = "button_Result";
             this.button_Result.Size = new System.Drawing.Size(104, 64);
@@ -295,7 +295,7 @@
             // 
             this.button0.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button0.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button0.Font = new System.Drawing.Font("Hancom MalangMalang Bold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button0.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button0.Location = new System.Drawing.Point(122, 546);
             this.button0.Name = "button0";
             this.button0.Size = new System.Drawing.Size(104, 64);
@@ -308,7 +308,7 @@
             // 
             this.button_ToggleSign.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button_ToggleSign.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button_ToggleSign.Font = new System.Drawing.Font("Hancom MalangMalang Bold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button_ToggleSign.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button_ToggleSign.Location = new System.Drawing.Point(12, 546);
             this.button_ToggleSign.Name = "button_ToggleSign";
             this.button_ToggleSign.Size = new System.Drawing.Size(104, 64);
@@ -321,7 +321,7 @@
             // 
             this.button3.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button3.Font = new System.Drawing.Font("Hancom MalangMalang Bold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button3.Location = new System.Drawing.Point(232, 474);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(104, 64);
@@ -334,7 +334,7 @@
             // 
             this.Add.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.Add.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.Add.Font = new System.Drawing.Font("Hancom MalangMalang Bold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.Add.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.Add.Location = new System.Drawing.Point(342, 474);
             this.Add.Name = "Add";
             this.Add.Size = new System.Drawing.Size(104, 64);
@@ -347,7 +347,7 @@
             // 
             this.button2.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button2.Font = new System.Drawing.Font("Hancom MalangMalang Bold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button2.Location = new System.Drawing.Point(122, 474);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(104, 64);
@@ -360,7 +360,7 @@
             // 
             this.button1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button1.Font = new System.Drawing.Font("Hancom MalangMalang Bold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button1.Location = new System.Drawing.Point(12, 474);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(104, 64);
@@ -371,11 +371,11 @@
             // 
             // textBox_result
             // 
-            this.textBox_result.Location = new System.Drawing.Point(12, 91);
+            this.textBox_result.Location = new System.Drawing.Point(12, 45);
             this.textBox_result.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox_result.Multiline = true;
             this.textBox_result.Name = "textBox_result";
-            this.textBox_result.Size = new System.Drawing.Size(434, 59);
+            this.textBox_result.Size = new System.Drawing.Size(434, 130);
             this.textBox_result.TabIndex = 24;
             this.textBox_result.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
