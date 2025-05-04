@@ -63,7 +63,7 @@ namespace CalculatorApp
         // CE button 클릭시 동작하는 함수 / 현재작성 중인 식 삭제
         private void button_ClearEntry_Click(object sender, EventArgs e)
         {
-            //해결못함
+            textBox_result.Text = op.ClearEntry(textBox_result.Text);
         }
 
         // 1/x button 클릭시 동작하는 함수 / 1/x 계산
