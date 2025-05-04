@@ -392,9 +392,9 @@
             // panelMain
             // 
             this.panelMain.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panelMain.Location = new System.Drawing.Point(0, 168);
+            this.panelMain.Location = new System.Drawing.Point(0, 180);
             this.panelMain.Name = "panelMain";
-            this.panelMain.Size = new System.Drawing.Size(463, 456);
+            this.panelMain.Size = new System.Drawing.Size(463, 444);
             this.panelMain.TabIndex = 26;
             // 
             // Form1
