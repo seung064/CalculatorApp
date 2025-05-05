@@ -46,24 +46,38 @@ namespace CalculatorApp
             this.button7 = new System.Windows.Forms.Button();
             this.button_delete = new System.Windows.Forms.Button();
             this.button_ClearEntry = new System.Windows.Forms.Button();
+            this.radioButton_input_C = new System.Windows.Forms.RadioButton();
+            this.radioButton_input_F = new System.Windows.Forms.RadioButton();
+            this.radioButton_input_K = new System.Windows.Forms.RadioButton();
+            this.radioButton_result_C = new System.Windows.Forms.RadioButton();
+            this.radioButton_result_F = new System.Windows.Forms.RadioButton();
+            this.radioButton_result_K = new System.Windows.Forms.RadioButton();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.button_Result = new System.Windows.Forms.Button();
+            this.groupBox1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
             // textBox_input
             // 
+            this.textBox_input.Font = new System.Drawing.Font("Hancom MalangMalang Regular", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.textBox_input.Location = new System.Drawing.Point(46, 67);
             this.textBox_input.Multiline = true;
             this.textBox_input.Name = "textBox_input";
             this.textBox_input.Size = new System.Drawing.Size(144, 46);
             this.textBox_input.TabIndex = 66;
+            this.textBox_input.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox_result
             // 
+            this.textBox_result.Font = new System.Drawing.Font("Hancom MalangMalang Regular", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.textBox_result.Location = new System.Drawing.Point(46, 201);
             this.textBox_result.Multiline = true;
             this.textBox_result.Name = "textBox_result";
             this.textBox_result.Size = new System.Drawing.Size(144, 46);
             this.textBox_result.TabIndex = 65;
+            this.textBox_result.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // button_dot
             // 
@@ -77,6 +91,7 @@ namespace CalculatorApp
             this.button_dot.TabIndex = 64;
             this.button_dot.Text = ".";
             this.button_dot.UseVisualStyleBackColor = false;
+            this.button_dot.Click += new System.EventHandler(this.button_dot_Click);
             // 
             // button0
             // 
@@ -90,6 +105,7 @@ namespace CalculatorApp
             this.button0.TabIndex = 63;
             this.button0.Text = "0";
             this.button0.UseVisualStyleBackColor = false;
+            this.button0.Click += new System.EventHandler(this.button_Click);
             // 
             // button_ToggleSign
             // 
@@ -103,6 +119,7 @@ namespace CalculatorApp
             this.button_ToggleSign.TabIndex = 62;
             this.button_ToggleSign.Text = "+/-";
             this.button_ToggleSign.UseVisualStyleBackColor = false;
+            this.button_ToggleSign.Click += new System.EventHandler(this.button_ToggleSign_Click);
             // 
             // button3
             // 
@@ -116,6 +133,7 @@ namespace CalculatorApp
             this.button3.TabIndex = 61;
             this.button3.Text = "3";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button_Click);
             // 
             // button2
             // 
@@ -129,6 +147,7 @@ namespace CalculatorApp
             this.button2.TabIndex = 60;
             this.button2.Text = "2";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button_Click);
             // 
             // button1
             // 
@@ -142,6 +161,7 @@ namespace CalculatorApp
             this.button1.TabIndex = 59;
             this.button1.Text = "1";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button_Click);
             // 
             // button6
             // 
@@ -155,6 +175,7 @@ namespace CalculatorApp
             this.button6.TabIndex = 58;
             this.button6.Text = "6";
             this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button_Click);
             // 
             // button5
             // 
@@ -168,6 +189,7 @@ namespace CalculatorApp
             this.button5.TabIndex = 57;
             this.button5.Text = "5";
             this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button_Click);
             // 
             // button4
             // 
@@ -181,6 +203,7 @@ namespace CalculatorApp
             this.button4.TabIndex = 56;
             this.button4.Text = "4";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button_Click);
             // 
             // button9
             // 
@@ -194,6 +217,7 @@ namespace CalculatorApp
             this.button9.TabIndex = 55;
             this.button9.Text = "9";
             this.button9.UseVisualStyleBackColor = false;
+            this.button9.Click += new System.EventHandler(this.button_Click);
             // 
             // button8
             // 
@@ -207,6 +231,7 @@ namespace CalculatorApp
             this.button8.TabIndex = 54;
             this.button8.Text = "8";
             this.button8.UseVisualStyleBackColor = false;
+            this.button8.Click += new System.EventHandler(this.button_Click);
             // 
             // button7
             // 
@@ -220,6 +245,7 @@ namespace CalculatorApp
             this.button7.TabIndex = 53;
             this.button7.Text = "7";
             this.button7.UseVisualStyleBackColor = false;
+            this.button7.Click += new System.EventHandler(this.button_Click);
             // 
             // button_delete
             // 
@@ -233,6 +259,7 @@ namespace CalculatorApp
             this.button_delete.TabIndex = 51;
             this.button_delete.Text = "⌫";
             this.button_delete.UseVisualStyleBackColor = false;
+            this.button_delete.Click += new System.EventHandler(this.button_delete_Click);
             // 
             // button_ClearEntry
             // 
@@ -247,23 +274,114 @@ namespace CalculatorApp
             this.button_ClearEntry.Tag = "";
             this.button_ClearEntry.Text = "CE";
             this.button_ClearEntry.UseVisualStyleBackColor = false;
+            this.button_ClearEntry.Click += new System.EventHandler(this.button_ClearEntry_Click);
+            // 
+            // radioButton_input_C
+            // 
+            this.radioButton_input_C.AutoSize = true;
+            this.radioButton_input_C.Location = new System.Drawing.Point(33, 40);
+            this.radioButton_input_C.Name = "radioButton_input_C";
+            this.radioButton_input_C.Size = new System.Drawing.Size(36, 16);
+            this.radioButton_input_C.TabIndex = 68;
+            this.radioButton_input_C.TabStop = true;
+            this.radioButton_input_C.Text = "°C";
+            this.radioButton_input_C.UseVisualStyleBackColor = true;
+            // 
+            // radioButton_input_F
+            // 
+            this.radioButton_input_F.AutoSize = true;
+            this.radioButton_input_F.Location = new System.Drawing.Point(33, 62);
+            this.radioButton_input_F.Name = "radioButton_input_F";
+            this.radioButton_input_F.Size = new System.Drawing.Size(34, 16);
+            this.radioButton_input_F.TabIndex = 70;
+            this.radioButton_input_F.TabStop = true;
+            this.radioButton_input_F.Text = "°F";
+            this.radioButton_input_F.UseVisualStyleBackColor = true;
+            // 
+            // radioButton_input_K
+            // 
+            this.radioButton_input_K.AutoSize = true;
+            this.radioButton_input_K.Location = new System.Drawing.Point(33, 84);
+            this.radioButton_input_K.Name = "radioButton_input_K";
+            this.radioButton_input_K.Size = new System.Drawing.Size(31, 16);
+            this.radioButton_input_K.TabIndex = 71;
+            this.radioButton_input_K.TabStop = true;
+            this.radioButton_input_K.Text = "K";
+            this.radioButton_input_K.UseVisualStyleBackColor = true;
+            // 
+            // radioButton_result_C
+            // 
+            this.radioButton_result_C.AutoSize = true;
+            this.radioButton_result_C.Location = new System.Drawing.Point(33, 40);
+            this.radioButton_result_C.Name = "radioButton_result_C";
+            this.radioButton_result_C.Size = new System.Drawing.Size(36, 16);
+            this.radioButton_result_C.TabIndex = 74;
+            this.radioButton_result_C.TabStop = true;
+            this.radioButton_result_C.Text = "°C";
+            this.radioButton_result_C.UseVisualStyleBackColor = true;
+            // 
+            // radioButton_result_F
+            // 
+            this.radioButton_result_F.AutoSize = true;
+            this.radioButton_result_F.Location = new System.Drawing.Point(33, 62);
+            this.radioButton_result_F.Name = "radioButton_result_F";
+            this.radioButton_result_F.Size = new System.Drawing.Size(34, 16);
+            this.radioButton_result_F.TabIndex = 73;
+            this.radioButton_result_F.TabStop = true;
+            this.radioButton_result_F.Text = "°F";
+            this.radioButton_result_F.UseVisualStyleBackColor = true;
+            // 
+            // radioButton_result_K
+            // 
+            this.radioButton_result_K.AutoSize = true;
+            this.radioButton_result_K.Location = new System.Drawing.Point(33, 84);
+            this.radioButton_result_K.Name = "radioButton_result_K";
+            this.radioButton_result_K.Size = new System.Drawing.Size(31, 16);
+            this.radioButton_result_K.TabIndex = 72;
+            this.radioButton_result_K.TabStop = true;
+            this.radioButton_result_K.Text = "K";
+            this.radioButton_result_K.UseVisualStyleBackColor = true;
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.radioButton_input_K);
+            this.groupBox1.Controls.Add(this.radioButton_input_C);
+            this.groupBox1.Controls.Add(this.radioButton_input_F);
+            this.groupBox1.Location = new System.Drawing.Point(279, 13);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(100, 110);
+            this.groupBox1.TabIndex = 75;
+            this.groupBox1.TabStop = false;
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.radioButton_result_C);
+            this.groupBox2.Controls.Add(this.radioButton_result_F);
+            this.groupBox2.Controls.Add(this.radioButton_result_K);
+            this.groupBox2.Location = new System.Drawing.Point(279, 147);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(100, 110);
+            this.groupBox2.TabIndex = 76;
+            this.groupBox2.TabStop = false;
             // 
             // button_Result
             // 
             this.button_Result.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button_Result.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button_Result.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button_Result.Location = new System.Drawing.Point(295, 516);
+            this.button_Result.Location = new System.Drawing.Point(296, 516);
             this.button_Result.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button_Result.Name = "button_Result";
             this.button_Result.Size = new System.Drawing.Size(119, 40);
-            this.button_Result.TabIndex = 67;
+            this.button_Result.TabIndex = 69;
             this.button_Result.Text = "=";
             this.button_Result.UseVisualStyleBackColor = false;
             this.button_Result.Click += new System.EventHandler(this.button_Result_Click);
             // 
             // TempConverter
             // 
+            this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.button_Result);
             this.Controls.Add(this.textBox_input);
             this.Controls.Add(this.textBox_result);
@@ -283,6 +401,10 @@ namespace CalculatorApp
             this.Controls.Add(this.button_ClearEntry);
             this.Name = "TempConverter";
             this.Size = new System.Drawing.Size(480, 580);
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -306,6 +428,14 @@ namespace CalculatorApp
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button button_delete;
         private System.Windows.Forms.Button button_ClearEntry;
-
+        private System.Windows.Forms.RadioButton radioButton_input_C;
+        private System.Windows.Forms.RadioButton radioButton_input_F;
+        private System.Windows.Forms.RadioButton radioButton_input_K;
+        private System.Windows.Forms.RadioButton radioButton_result_C;
+        private System.Windows.Forms.RadioButton radioButton_result_F;
+        private System.Windows.Forms.RadioButton radioButton_result_K;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.Button button_Result;
     }
 }
