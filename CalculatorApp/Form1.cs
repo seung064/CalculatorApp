@@ -96,7 +96,7 @@ namespace CalculatorApp
         {
             panelMain.Controls.Clear(); // 기존 userControl 제거
             //panelMain.Visible = false; // panelMain false
-            uc.Dock = DockStyle.Fill; // uc(객체)가 패널을 가득 채움
+            uc.Dock = DockStyle.Fill; // uc(객체)가 패널을 가득 채움//
             panelMain.Controls.Add(uc); // 패널에 usercontrol 추가
         }
 
@@ -107,7 +107,7 @@ namespace CalculatorApp
             if (form1 == 1)
             {
                 panelMain.Visible = true;
-                LoadUserControl(new ScientificCalculatorControl());
+              //  LoadUserControl(new ScientificCalculatorControl());
                 form1 = 2;
             }
             else if(form1 == 2) 
