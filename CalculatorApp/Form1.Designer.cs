@@ -50,7 +50,7 @@
             this.panelContainer.Size = new System.Drawing.Size(480, 580);
             this.panelContainer.TabIndex = 26;
             this.panelContainer.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panelMain.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.panelContainer.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             // 
             // Form1
             // 
@@ -71,4 +71,3 @@
         private System.Windows.Forms.Panel panelContainer;
     }
 }
-
