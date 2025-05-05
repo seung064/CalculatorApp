@@ -80,6 +80,7 @@
     </Compile>
     <EmbeddedResource Include="StandardVersion.resx">
       <DependentUpon>StandardVersion.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="TempConverter.resx">
       <DependentUpon>TempConverter.cs</DependentUpon>
     </EmbeddedResource>
