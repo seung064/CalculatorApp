@@ -46,12 +46,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ScientificCalculatorControl.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="ScientificCalculatorControl.Designer.cs">
-      <DependentUpon>ScientificCalculatorControl.cs</DependentUpon>
-    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -61,9 +55,12 @@
     <Compile Include="Operation.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="ScientificCalculatorControl.resx">
-      <DependentUpon>ScientificCalculatorControl.cs</DependentUpon>
-    </EmbeddedResource>
+    <Compile Include="StandardVersion.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="StandardVersion.Designer.cs">
+      <DependentUpon>StandardVersion.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -76,6 +73,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="StandardVersion.resx">
+      <DependentUpon>StandardVersion.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

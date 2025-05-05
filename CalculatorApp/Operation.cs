@@ -120,7 +120,6 @@ namespace CalculatorApp
         {
             string pattern = "[+\\-*÷%]";
             string[] splited = Regex.Split(equation, pattern);
-            //MatchCollection matches = Regex.Matches(equation, pattern);
 
             Console.WriteLine(splited.Length);
             if (splited.Length >= 2)
