@@ -67,6 +67,7 @@
     <Compile Include="TempConverter.Designer.cs">
       <DependentUpon>TempConverter.cs</DependentUpon>
     </Compile>
+    <Compile Include="TempConverterLogic.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
