@@ -60,6 +60,11 @@
     </Compile>
     <Compile Include="StandardVersion.Designer.cs">
       <DependentUpon>StandardVersion.cs</DependentUpon>
+    <Compile Include="TempConverter.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TempConverter.Designer.cs">
+      <DependentUpon>TempConverter.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -75,6 +80,8 @@
     </Compile>
     <EmbeddedResource Include="StandardVersion.resx">
       <DependentUpon>StandardVersion.cs</DependentUpon>
+    <EmbeddedResource Include="TempConverter.resx">
+      <DependentUpon>TempConverter.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

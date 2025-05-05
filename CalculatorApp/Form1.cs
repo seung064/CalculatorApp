@@ -28,7 +28,6 @@ namespace CalculatorApp
             panelContainer.Controls.Add(page);
         }
 
-
         // button_mode 클릭시 동작하는 함수 / panel 변환
         private void button_mode_Click(object sender, EventArgs e)
         {

@@ -31,9 +31,7 @@
             this.button_mode = new System.Windows.Forms.Button();
             this.panelContainer = new System.Windows.Forms.Panel();
             this.SuspendLayout();
-            // 
-            // button_mode
-            // 
+
             this.button_mode.BackColor = System.Drawing.SystemColors.Control;
             this.button_mode.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_mode.Location = new System.Drawing.Point(12, 10);
@@ -51,10 +49,12 @@
             this.panelContainer.Name = "panelContainer";
             this.panelContainer.Size = new System.Drawing.Size(480, 580);
             this.panelContainer.TabIndex = 26;
+            this.panelContainer.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panelMain.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.ClientSize = new System.Drawing.Size(504, 651);
