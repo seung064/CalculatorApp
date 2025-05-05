@@ -33,7 +33,7 @@ namespace CalculatorApp
         {
             if (pageNumber == 1)
             {
-                //ShowPage(new TempConverter());
+                ShowPage(new TempConverter());
                 pageNumber = 2;
             }
             else if(pageNumber == 2) 

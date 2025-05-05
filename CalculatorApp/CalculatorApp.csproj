@@ -60,6 +60,7 @@
     </Compile>
     <Compile Include="StandardVersion.Designer.cs">
       <DependentUpon>StandardVersion.cs</DependentUpon>
+    </Compile>
     <Compile Include="TempConverter.cs">
       <SubType>UserControl</SubType>
     </Compile>
