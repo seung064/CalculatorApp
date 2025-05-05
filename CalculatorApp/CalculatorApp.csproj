@@ -60,6 +60,7 @@
     </Compile>
     <Compile Include="StandardVersion.Designer.cs">
       <DependentUpon>StandardVersion.cs</DependentUpon>
+    </Compile>
     <Compile Include="TempConverter.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -80,6 +81,7 @@
     </Compile>
     <EmbeddedResource Include="StandardVersion.resx">
       <DependentUpon>StandardVersion.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="TempConverter.resx">
       <DependentUpon>TempConverter.cs</DependentUpon>
     </EmbeddedResource>
