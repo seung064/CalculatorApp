@@ -61,7 +61,7 @@ namespace CalculatorApp
             // 
             // textBox_input
             // 
-            this.textBox_input.Font = new System.Drawing.Font("Hancom MalangMalang Regular", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.textBox_input.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.textBox_input.Location = new System.Drawing.Point(46, 67);
             this.textBox_input.Multiline = true;
             this.textBox_input.Name = "textBox_input";
@@ -71,7 +71,7 @@ namespace CalculatorApp
             // 
             // textBox_result
             // 
-            this.textBox_result.Font = new System.Drawing.Font("Hancom MalangMalang Regular", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.textBox_result.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.textBox_result.Location = new System.Drawing.Point(46, 201);
             this.textBox_result.Multiline = true;
             this.textBox_result.Name = "textBox_result";
@@ -81,7 +81,7 @@ namespace CalculatorApp
             // 
             // button_dot
             // 
-            this.button_dot.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button_dot.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(228)))), ((int)(((byte)(255)))));
             this.button_dot.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button_dot.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button_dot.Location = new System.Drawing.Point(45, 516);
@@ -92,10 +92,12 @@ namespace CalculatorApp
             this.button_dot.Text = ".";
             this.button_dot.UseVisualStyleBackColor = false;
             this.button_dot.Click += new System.EventHandler(this.button_dot_Click);
+            this.button_dot.MouseDown += new System.Windows.Forms.MouseEventHandler(this.MouseDown);
+            this.button_dot.MouseUp += new System.Windows.Forms.MouseEventHandler(this.MouseUp);
             // 
             // button0
             // 
-            this.button0.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button0.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(228)))), ((int)(((byte)(255)))));
             this.button0.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button0.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button0.Location = new System.Drawing.Point(170, 516);
@@ -106,10 +108,12 @@ namespace CalculatorApp
             this.button0.Text = "0";
             this.button0.UseVisualStyleBackColor = false;
             this.button0.Click += new System.EventHandler(this.button_Click);
+            this.button0.MouseDown += new System.Windows.Forms.MouseEventHandler(this.MouseDown);
+            this.button0.MouseUp += new System.Windows.Forms.MouseEventHandler(this.MouseUp);
             // 
             // button_ToggleSign
             // 
-            this.button_ToggleSign.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button_ToggleSign.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(228)))), ((int)(((byte)(255)))));
             this.button_ToggleSign.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button_ToggleSign.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button_ToggleSign.Location = new System.Drawing.Point(46, 280);
@@ -120,10 +124,12 @@ namespace CalculatorApp
             this.button_ToggleSign.Text = "+/-";
             this.button_ToggleSign.UseVisualStyleBackColor = false;
             this.button_ToggleSign.Click += new System.EventHandler(this.button_ToggleSign_Click);
+            this.button_ToggleSign.MouseDown += new System.Windows.Forms.MouseEventHandler(this.MouseDown);
+            this.button_ToggleSign.MouseUp += new System.Windows.Forms.MouseEventHandler(this.MouseUp);
             // 
             // button3
             // 
-            this.button3.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(228)))), ((int)(((byte)(255)))));
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button3.Location = new System.Drawing.Point(296, 457);
@@ -134,10 +140,12 @@ namespace CalculatorApp
             this.button3.Text = "3";
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button_Click);
+            this.button3.MouseDown += new System.Windows.Forms.MouseEventHandler(this.MouseDown);
+            this.button3.MouseUp += new System.Windows.Forms.MouseEventHandler(this.MouseUp);
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(228)))), ((int)(((byte)(255)))));
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button2.Location = new System.Drawing.Point(170, 457);
@@ -148,10 +156,12 @@ namespace CalculatorApp
             this.button2.Text = "2";
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button_Click);
+            this.button2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.MouseDown);
+            this.button2.MouseUp += new System.Windows.Forms.MouseEventHandler(this.MouseUp);
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(228)))), ((int)(((byte)(255)))));
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button1.Location = new System.Drawing.Point(45, 457);
@@ -162,10 +172,12 @@ namespace CalculatorApp
             this.button1.Text = "1";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button_Click);
+            this.button1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.MouseDown);
+            this.button1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.MouseUp);
             // 
             // button6
             // 
-            this.button6.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(228)))), ((int)(((byte)(255)))));
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button6.Location = new System.Drawing.Point(296, 398);
@@ -176,10 +188,12 @@ namespace CalculatorApp
             this.button6.Text = "6";
             this.button6.UseVisualStyleBackColor = false;
             this.button6.Click += new System.EventHandler(this.button_Click);
+            this.button6.MouseDown += new System.Windows.Forms.MouseEventHandler(this.MouseDown);
+            this.button6.MouseUp += new System.Windows.Forms.MouseEventHandler(this.MouseUp);
             // 
             // button5
             // 
-            this.button5.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(228)))), ((int)(((byte)(255)))));
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button5.Location = new System.Drawing.Point(170, 398);
@@ -190,10 +204,12 @@ namespace CalculatorApp
             this.button5.Text = "5";
             this.button5.UseVisualStyleBackColor = false;
             this.button5.Click += new System.EventHandler(this.button_Click);
+            this.button5.MouseDown += new System.Windows.Forms.MouseEventHandler(this.MouseDown);
+            this.button5.MouseUp += new System.Windows.Forms.MouseEventHandler(this.MouseUp);
             // 
             // button4
             // 
-            this.button4.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(228)))), ((int)(((byte)(255)))));
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button4.Location = new System.Drawing.Point(45, 398);
@@ -204,10 +220,12 @@ namespace CalculatorApp
             this.button4.Text = "4";
             this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button_Click);
+            this.button4.MouseDown += new System.Windows.Forms.MouseEventHandler(this.MouseDown);
+            this.button4.MouseUp += new System.Windows.Forms.MouseEventHandler(this.MouseUp);
             // 
             // button9
             // 
-            this.button9.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(228)))), ((int)(((byte)(255)))));
             this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button9.Location = new System.Drawing.Point(296, 339);
@@ -218,10 +236,12 @@ namespace CalculatorApp
             this.button9.Text = "9";
             this.button9.UseVisualStyleBackColor = false;
             this.button9.Click += new System.EventHandler(this.button_Click);
+            this.button9.MouseDown += new System.Windows.Forms.MouseEventHandler(this.MouseDown);
+            this.button9.MouseUp += new System.Windows.Forms.MouseEventHandler(this.MouseUp);
             // 
             // button8
             // 
-            this.button8.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(228)))), ((int)(((byte)(255)))));
             this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button8.Location = new System.Drawing.Point(170, 339);
@@ -232,10 +252,12 @@ namespace CalculatorApp
             this.button8.Text = "8";
             this.button8.UseVisualStyleBackColor = false;
             this.button8.Click += new System.EventHandler(this.button_Click);
+            this.button8.MouseDown += new System.Windows.Forms.MouseEventHandler(this.MouseDown);
+            this.button8.MouseUp += new System.Windows.Forms.MouseEventHandler(this.MouseUp);
             // 
             // button7
             // 
-            this.button7.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(228)))), ((int)(((byte)(255)))));
             this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button7.Location = new System.Drawing.Point(45, 339);
@@ -246,10 +268,12 @@ namespace CalculatorApp
             this.button7.Text = "7";
             this.button7.UseVisualStyleBackColor = false;
             this.button7.Click += new System.EventHandler(this.button_Click);
+            this.button7.MouseDown += new System.Windows.Forms.MouseEventHandler(this.MouseDown);
+            this.button7.MouseUp += new System.Windows.Forms.MouseEventHandler(this.MouseUp);
             // 
             // button_delete
             // 
-            this.button_delete.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button_delete.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(228)))), ((int)(((byte)(255)))));
             this.button_delete.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button_delete.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button_delete.Location = new System.Drawing.Point(296, 280);
@@ -260,10 +284,12 @@ namespace CalculatorApp
             this.button_delete.Text = "⌫";
             this.button_delete.UseVisualStyleBackColor = false;
             this.button_delete.Click += new System.EventHandler(this.button_delete_Click);
+            this.button_delete.MouseDown += new System.Windows.Forms.MouseEventHandler(this.MouseDown);
+            this.button_delete.MouseUp += new System.Windows.Forms.MouseEventHandler(this.MouseUp);
             // 
             // button_ClearEntry
             // 
-            this.button_ClearEntry.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button_ClearEntry.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(228)))), ((int)(((byte)(255)))));
             this.button_ClearEntry.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button_ClearEntry.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button_ClearEntry.Location = new System.Drawing.Point(171, 280);
@@ -275,13 +301,15 @@ namespace CalculatorApp
             this.button_ClearEntry.Text = "CE";
             this.button_ClearEntry.UseVisualStyleBackColor = false;
             this.button_ClearEntry.Click += new System.EventHandler(this.button_ClearEntry_Click);
+            this.button_ClearEntry.MouseDown += new System.Windows.Forms.MouseEventHandler(this.MouseDown);
+            this.button_ClearEntry.MouseUp += new System.Windows.Forms.MouseEventHandler(this.MouseUp);
             // 
             // radioButton_input_C
             // 
             this.radioButton_input_C.AutoSize = true;
             this.radioButton_input_C.Location = new System.Drawing.Point(33, 40);
             this.radioButton_input_C.Name = "radioButton_input_C";
-            this.radioButton_input_C.Size = new System.Drawing.Size(36, 16);
+            this.radioButton_input_C.Size = new System.Drawing.Size(43, 19);
             this.radioButton_input_C.TabIndex = 68;
             this.radioButton_input_C.TabStop = true;
             this.radioButton_input_C.Text = "°C";
@@ -292,7 +320,7 @@ namespace CalculatorApp
             this.radioButton_input_F.AutoSize = true;
             this.radioButton_input_F.Location = new System.Drawing.Point(33, 62);
             this.radioButton_input_F.Name = "radioButton_input_F";
-            this.radioButton_input_F.Size = new System.Drawing.Size(34, 16);
+            this.radioButton_input_F.Size = new System.Drawing.Size(41, 19);
             this.radioButton_input_F.TabIndex = 70;
             this.radioButton_input_F.TabStop = true;
             this.radioButton_input_F.Text = "°F";
@@ -303,7 +331,7 @@ namespace CalculatorApp
             this.radioButton_input_K.AutoSize = true;
             this.radioButton_input_K.Location = new System.Drawing.Point(33, 84);
             this.radioButton_input_K.Name = "radioButton_input_K";
-            this.radioButton_input_K.Size = new System.Drawing.Size(31, 16);
+            this.radioButton_input_K.Size = new System.Drawing.Size(36, 19);
             this.radioButton_input_K.TabIndex = 71;
             this.radioButton_input_K.TabStop = true;
             this.radioButton_input_K.Text = "K";
@@ -314,7 +342,7 @@ namespace CalculatorApp
             this.radioButton_result_C.AutoSize = true;
             this.radioButton_result_C.Location = new System.Drawing.Point(33, 40);
             this.radioButton_result_C.Name = "radioButton_result_C";
-            this.radioButton_result_C.Size = new System.Drawing.Size(36, 16);
+            this.radioButton_result_C.Size = new System.Drawing.Size(43, 19);
             this.radioButton_result_C.TabIndex = 74;
             this.radioButton_result_C.TabStop = true;
             this.radioButton_result_C.Text = "°C";
@@ -325,7 +353,7 @@ namespace CalculatorApp
             this.radioButton_result_F.AutoSize = true;
             this.radioButton_result_F.Location = new System.Drawing.Point(33, 62);
             this.radioButton_result_F.Name = "radioButton_result_F";
-            this.radioButton_result_F.Size = new System.Drawing.Size(34, 16);
+            this.radioButton_result_F.Size = new System.Drawing.Size(41, 19);
             this.radioButton_result_F.TabIndex = 73;
             this.radioButton_result_F.TabStop = true;
             this.radioButton_result_F.Text = "°F";
@@ -336,7 +364,7 @@ namespace CalculatorApp
             this.radioButton_result_K.AutoSize = true;
             this.radioButton_result_K.Location = new System.Drawing.Point(33, 84);
             this.radioButton_result_K.Name = "radioButton_result_K";
-            this.radioButton_result_K.Size = new System.Drawing.Size(31, 16);
+            this.radioButton_result_K.Size = new System.Drawing.Size(36, 19);
             this.radioButton_result_K.TabIndex = 72;
             this.radioButton_result_K.TabStop = true;
             this.radioButton_result_K.Text = "K";
@@ -366,7 +394,7 @@ namespace CalculatorApp
             // 
             // button_Result
             // 
-            this.button_Result.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button_Result.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(228)))), ((int)(((byte)(255)))));
             this.button_Result.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button_Result.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button_Result.Location = new System.Drawing.Point(296, 516);
@@ -377,9 +405,12 @@ namespace CalculatorApp
             this.button_Result.Text = "=";
             this.button_Result.UseVisualStyleBackColor = false;
             this.button_Result.Click += new System.EventHandler(this.button_Result_Click);
+            this.button_Result.MouseDown += new System.Windows.Forms.MouseEventHandler(this.MouseDown);
+            this.button_Result.MouseUp += new System.Windows.Forms.MouseEventHandler(this.MouseUp);
             // 
             // TempConverter
             // 
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(239)))), ((int)(((byte)(255)))));
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.button_Result);
