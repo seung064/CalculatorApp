@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace CalculatorApp
 {
@@ -19,7 +20,7 @@ namespace CalculatorApp
 
 
             //예외 처리
-            if(splited.Length <= 1)
+            if (splited.Length <= 1)
             {
                 return 0;
             }

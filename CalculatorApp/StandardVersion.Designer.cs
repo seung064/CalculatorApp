@@ -441,7 +441,10 @@
             // 
             // textBox_result
             // 
-            this.textBox_result.Location = new System.Drawing.Point(26, 10);
+
+            this.textBox_result.Font = new System.Drawing.Font("Gulim", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.textBox_result.Location = new System.Drawing.Point(23, 8);
+
             this.textBox_result.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox_result.Multiline = true;
             this.textBox_result.Name = "textBox_result";

@@ -2,11 +2,14 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics.Eventing.Reader;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace CalculatorApp
 {
@@ -24,16 +27,63 @@ namespace CalculatorApp
         {
             char[] op = { '+', '-', '*', '÷', '%' };
             int idx = textBox_result.Text.Length;
+            char clickedOperator = ((Button)sender).Text[0];
+            string text = textBox_result.Text;
+
             if (idx != 0 && op.Contains(textBox_result.Text[idx - 1]) && op.Contains(((Button)sender).Text[0]))
             {
-                Console.WriteLine(idx + " TEST : " + textBox_result.Text[idx - 1] + " || " + op.Contains(textBox_result.Text[idx - 1]) + "\r\n");
+                //Console.WriteLine(idx + " TEST : " + textBox_result.Text[idx - 1] + " || " + op.Contains(textBox_result.Text[idx - 1]) + "\r\n");
                 char[] chars = textBox_result.Text.ToCharArray();
                 chars[idx - 1] = ((Button)sender).Text[0];
                 textBox_result.Text = new string(chars);
                 return;
             }
+
+            if (op.Contains(clickedOperator) && text.Length > 0 && !op.Contains(text.Last()))
+            {
+                int lastOpIndex = text.LastIndexOfAny(op);
+                if (lastOpIndex >= 0 && lastOpIndex < text.Length - 1) // 연산자가 있고, 그 뒤에 숫자도 있을때만 실행
+                {
+                    // "숫자 + 연산자 + 숫자" 형태일 경우 계산
+                    string left = text.Substring(0, lastOpIndex);  // 연산자 앞의 부분
+                    string right = text.Substring(lastOpIndex + 1);  // 연산자 뒤의 부분
+
+                    // 숫자 + 연산자 + 숫자 형태로 나눠서 계산
+                    double a = double.Parse(left);
+                    double b = double.Parse(right);
+                    double result = 0;
+
+                    switch (text[lastOpIndex])  // 마지막 연산자 확인
+                    {
+                        case '+':
+                            result = a + b;
+                            break;
+                        case '-':
+                            result = a - b;
+                            break;
+                        case '*':
+                            result = a * b;
+                            break;
+                        case '÷':
+                            result = b != 0 ? a / b : 0; // 0으로 나누기 방지
+                            break;
+                        case '%':
+                            result = a % b;
+                            break;
+                    }
+
+                    // 계산 후 결과와 새로운 연산자 추가
+                    textBox_result.Text = result.ToString() + clickedOperator;
+                    return;
+                }
+
+            }
+
+            // 연산자 외의 다른 버튼 (숫자 등) 클릭 시 텍스트 추가
             textBox_result.Text += ((Button)sender).Text;
         }
+        
+
 
 
         // = button 클릭 시 동작하는 함수입니다! 연산을 수행하도록 하는 함수예요!
