@@ -78,57 +78,13 @@ namespace CalculatorApp
                 }
 
             }
+
             // 연산자 외의 다른 버튼 (숫자 등) 클릭 시 텍스트 추가
             textBox_result.Text += ((Button)sender).Text;
         }
         
 
-        /*
-                    if (idx !=0 && op.Contains(textBox_result.Text[idx - 1]) && text.Count(c => op.Contains(c)) >= 2)
-                    {
-                        // 연산자가 두 개 이상 있는 경우
-                        // ex) "12+3+" 형태면 → "12+3"을 계산
 
-                        // 마지막 연산자 제외
-                        string expression = text.Substring(0, text.Length - 1);
-
-                        // 정규식으로 숫자 + 연산자 + 숫자 형태 추출
-
-        ;
-
-                        if (match.Success)
-                        {
-                            double lhs = double.Parse(match.Groups[1].Value);
-                            char oper = match.Groups[2].Value[0];
-                            double rhs = double.Parse(match.Groups[3].Value);
-
-                            double result = 0;
-
-                            switch (oper)
-                            {
-                                case '+':
-                                    result = lhs + rhs;
-                                    break;
-                                case '-':
-                                    result = lhs - rhs;
-                                    break;
-                                case '*':
-                                    result = lhs * rhs;
-                                    break;
-                                case '÷':
-                                    result = (rhs != 0) ? lhs / rhs : 0;
-                                    break;
-                                case '%':
-                                    result = lhs % rhs;
-                                    break;
-                            }
-                            textBox_result.Text = result.ToString() + clickedOperator;
-                            return;
-                        }
-                    }
-                    textBox_result.Text += ((Button)sender).Text;
-                }
-        */
 
         // = button 클릭 시 동작하는 함수입니다! 연산을 수행하도록 하는 함수예요!
         private void button_Result_Click(object sender, EventArgs e)
