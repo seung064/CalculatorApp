@@ -66,7 +66,7 @@
             this.button_Remainder.TabIndex = 0;
             this.button_Remainder.Text = "%";
             this.button_Remainder.UseVisualStyleBackColor = false;
-            this.button_Remainder.Click += new System.EventHandler(this.button_Click);
+            this.button_Remainder.Click += new System.EventHandler(this.buttonOperator_Click);
             // 
             // button_ClearEntry
             // 
@@ -132,7 +132,7 @@
             this.button_Divide.TabIndex = 6;
             this.button_Divide.Text = "÷";
             this.button_Divide.UseVisualStyleBackColor = false;
-            this.button_Divide.Click += new System.EventHandler(this.button_Click);
+            this.button_Divide.Click += new System.EventHandler(this.buttonOperator_Click);
             // 
             // button_Square
             // 
@@ -171,7 +171,7 @@
             this.button6.TabIndex = 15;
             this.button6.Text = "6";
             this.button6.UseVisualStyleBackColor = false;
-            this.button6.Click += new System.EventHandler(this.button_Click);
+            this.button6.Click += new System.EventHandler(this.buttonNumber_Click);
             // 
             // button_Subtract
             // 
@@ -184,7 +184,7 @@
             this.button_Subtract.TabIndex = 14;
             this.button_Subtract.Text = "-";
             this.button_Subtract.UseVisualStyleBackColor = false;
-            this.button_Subtract.Click += new System.EventHandler(this.button_Click);
+            this.button_Subtract.Click += new System.EventHandler(this.buttonNumber_Click);
             // 
             // button5
             // 
@@ -197,7 +197,7 @@
             this.button5.TabIndex = 13;
             this.button5.Text = "5";
             this.button5.UseVisualStyleBackColor = false;
-            this.button5.Click += new System.EventHandler(this.button_Click);
+            this.button5.Click += new System.EventHandler(this.buttonNumber_Click);
             // 
             // button4
             // 
@@ -210,7 +210,7 @@
             this.button4.TabIndex = 12;
             this.button4.Text = "4";
             this.button4.UseVisualStyleBackColor = false;
-            this.button4.Click += new System.EventHandler(this.button_Click);
+            this.button4.Click += new System.EventHandler(this.buttonNumber_Click);
             // 
             // button9
             // 
@@ -223,7 +223,7 @@
             this.button9.TabIndex = 11;
             this.button9.Text = "9";
             this.button9.UseVisualStyleBackColor = false;
-            this.button9.Click += new System.EventHandler(this.button_Click);
+            this.button9.Click += new System.EventHandler(this.buttonNumber_Click);
             // 
             // button_Multiply
             // 
@@ -236,7 +236,7 @@
             this.button_Multiply.TabIndex = 10;
             this.button_Multiply.Text = "*";
             this.button_Multiply.UseVisualStyleBackColor = false;
-            this.button_Multiply.Click += new System.EventHandler(this.button_Click);
+            this.button_Multiply.Click += new System.EventHandler(this.buttonOperator_Click);
             // 
             // button8
             // 
@@ -249,7 +249,7 @@
             this.button8.TabIndex = 9;
             this.button8.Text = "8";
             this.button8.UseVisualStyleBackColor = false;
-            this.button8.Click += new System.EventHandler(this.button_Click);
+            this.button8.Click += new System.EventHandler(this.buttonNumber_Click);
             // 
             // button7
             // 
@@ -262,7 +262,7 @@
             this.button7.TabIndex = 8;
             this.button7.Text = "7";
             this.button7.UseVisualStyleBackColor = false;
-            this.button7.Click += new System.EventHandler(this.button_Click);
+            this.button7.Click += new System.EventHandler(this.buttonNumber_Click);
             // 
             // button_dot
             // 
@@ -300,7 +300,7 @@
             this.button0.TabIndex = 21;
             this.button0.Text = "0";
             this.button0.UseVisualStyleBackColor = false;
-            this.button0.Click += new System.EventHandler(this.button_Click);
+            this.button0.Click += new System.EventHandler(this.buttonNumber_Click);
             // 
             // button_ToggleSign
             // 
@@ -326,7 +326,7 @@
             this.button3.TabIndex = 19;
             this.button3.Text = "3";
             this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button_Click);
+            this.button3.Click += new System.EventHandler(this.buttonNumber_Click);
             // 
             // Add
             // 
@@ -339,7 +339,7 @@
             this.Add.TabIndex = 18;
             this.Add.Text = "+";
             this.Add.UseVisualStyleBackColor = false;
-            this.Add.Click += new System.EventHandler(this.button_Click);
+            this.Add.Click += new System.EventHandler(this.buttonOperator_Click);
             // 
             // button2
             // 
@@ -352,7 +352,7 @@
             this.button2.TabIndex = 17;
             this.button2.Text = "2";
             this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button_Click);
+            this.button2.Click += new System.EventHandler(this.buttonNumber_Click);
             // 
             // button1
             // 
@@ -365,7 +365,7 @@
             this.button1.TabIndex = 16;
             this.button1.Text = "1";
             this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button_Click);
+            this.button1.Click += new System.EventHandler(this.buttonNumber_Click);
             // 
             // textBox_result
             // 
@@ -381,7 +381,6 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.Controls.Add(this.textBox_result);
             this.Controls.Add(this.button_dot);
             this.Controls.Add(this.button_Result);
