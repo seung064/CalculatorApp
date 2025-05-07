@@ -17,12 +17,6 @@ namespace CalculatorApp
             string[] splited = Regex.Split(equation, pattern);
             MatchCollection matches = Regex.Matches(equation, pattern);
 
-            /*----------테스트------------
-            foreach (string s in splited)
-            { Console.WriteLine(s); }
-            foreach (Match s in matches)
-            { Console.WriteLine(s); }
-            */
 
             //예외 처리
             if(splited.Length <= 1)
@@ -33,6 +27,8 @@ namespace CalculatorApp
             int a = int.Parse(splited[0]);
             int b = int.Parse(splited[1]);
             char op = matches[0].ToString()[0];
+
+
 
             //Console.WriteLine($"{a} {op} {b}"); //test code. Console 창에서 확인해보세요!
 

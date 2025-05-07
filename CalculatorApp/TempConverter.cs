@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Diagnostics;
+using System.Drawing;
 using System.Drawing.Text;
 using System.Linq;
 using System.Text;
@@ -117,6 +118,18 @@ namespace CalculatorApp
         private void button_dot_Click(object sender, EventArgs e)
         {
             textBox_input.Text += ".";
+        }
+
+        private void MouseDown(object sender, MouseEventArgs e)
+        {
+            Button down = sender as Button;
+            down.BackColor = Color.FromArgb(208, 217, 255);
+        }
+
+        private void MouseUp(object sender, MouseEventArgs e)
+        {
+            Button up = sender as Button;
+            up.BackColor = Color.FromArgb(218, 228, 255);
         }
     }
 }
