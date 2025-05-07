@@ -34,12 +34,12 @@
             // 
             // button_mode
             // 
-            this.button_mode.BackColor = System.Drawing.SystemColors.Control;
+            this.button_mode.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(228)))), ((int)(((byte)(255)))));
             this.button_mode.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_mode.Location = new System.Drawing.Point(28, 8);
+            this.button_mode.Location = new System.Drawing.Point(32, 10);
             this.button_mode.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button_mode.Name = "button_mode";
-            this.button_mode.Size = new System.Drawing.Size(117, 42);
+            this.button_mode.Size = new System.Drawing.Size(134, 52);
             this.button_mode.TabIndex = 25;
             this.button_mode.Text = "Mode";
             this.button_mode.UseVisualStyleBackColor = false;
@@ -47,17 +47,18 @@
             // 
             // panelContainer
             // 
-            this.panelContainer.Location = new System.Drawing.Point(0, 55);
+            this.panelContainer.Location = new System.Drawing.Point(0, 69);
+            this.panelContainer.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panelContainer.Name = "panelContainer";
-            this.panelContainer.Size = new System.Drawing.Size(480, 580);
+            this.panelContainer.Size = new System.Drawing.Size(549, 725);
             this.panelContainer.TabIndex = 26;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.ClientSize = new System.Drawing.Size(480, 636);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(239)))), ((int)(((byte)(255)))));
+            this.ClientSize = new System.Drawing.Size(549, 795);
             this.Controls.Add(this.panelContainer);
             this.Controls.Add(this.button_mode);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);

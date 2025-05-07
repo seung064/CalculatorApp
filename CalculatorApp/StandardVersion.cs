@@ -89,5 +89,17 @@ namespace CalculatorApp
         {
             textBox_result.Text = op.ToggleSign(int.Parse(textBox_result.Text)).ToString();
         }
+
+        private void MouseDown(object sender, MouseEventArgs e)
+        {
+            Button down = sender as Button;
+            down.BackColor = Color.FromArgb(208, 217, 255);
+        }
+
+        private void MouseUp(object sender, MouseEventArgs e)
+        {
+            Button up = sender as Button;
+            up.BackColor = Color.FromArgb(218, 228, 255);
+        }
     }
 }
