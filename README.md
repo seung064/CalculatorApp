@@ -39,11 +39,11 @@
     - Panel 전환 이벤트
         
         
-        ![image.png](이미지/image1.png)
+        ![image.png](image/image1.png)
         
         초기 Form1.cs 실행 시 표준 계산기 객체 만들어 Panel에 띄움
         
-        ![image.png](이미지/image (2).png)
+        ![image.png](이미지/image2.png)
         
         
         버튼 클릭 시 ‘온도 변환 계산기’로 Panel의 내용 전환
@@ -51,8 +51,7 @@
         
     - 버튼 클릭 시 이벤트
         
-      ![image.png](이미지/image (3).png)
-        ![image.png](이미지/image (4).png)
+        ![image.png](image/image3.png)
         
         이와 비슷한 맥락의 이벤트 메소드 많음.
         연산자가 두번 입력되는 경우 뒤에 넣은 연산자를 변경하거나 같은 기호가 추가되지 않게 예외처리
@@ -60,8 +59,8 @@
         
     - =(계산 버튼) 누를 시 이벤트(사칙연산)
         
-      ![image.png](이미지/image (4).png)
-      ![image.png](이미지/image (5).png)
+      ![image.png](image/image4.png)
+      ![image.png](image/image5.png)
         
         - 문자열을  쪼개서 문자열 배열에 저장
         - a 와 b를 splited배열에서 차례대로 저
@@ -70,12 +69,12 @@
         
     - CE 누를 시 이벤트
         
-      ![image.png](이미지/image (6).png)
+      ![image.png](image/image6.png)
         
         조건문을 통해 문자열 배열의 길이를 조건으로 splited[0], 즉 int a를 다시 꺼내오는 이벤트
 
     - 자동계산 함수
-      ![image.png](이미지/image (7).png)
+      ![image.png](image/image7.png)
 
       if문 + switch문을 통해 숫자 + 연산자 + 숫자 형태의 수식을 자동으로 계산하는 함수(추가 연산자를 누를경우 발생)
         
