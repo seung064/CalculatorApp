@@ -43,7 +43,7 @@
         
         초기 Form1.cs 실행 시 표준 계산기 객체 만들어 Panel에 띄움
         
-        ![image.png](이미지/image2.png)
+        ![image.png](image/image2.png)
         
         
         버튼 클릭 시 ‘온도 변환 계산기’로 Panel의 내용 전환
