@@ -34,7 +34,7 @@
             // 
             // button_mode
             // 
-            this.button_mode.BackColor = System.Drawing.SystemColors.Control;
+            this.button_mode.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(228)))), ((int)(((byte)(255)))));
             this.button_mode.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_mode.Location = new System.Drawing.Point(28, 8);
             this.button_mode.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -56,7 +56,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(239)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(480, 636);
             this.Controls.Add(this.panelContainer);
             this.Controls.Add(this.button_mode);

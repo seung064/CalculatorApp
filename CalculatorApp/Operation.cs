@@ -17,31 +17,17 @@ namespace CalculatorApp
             string[] splited = Regex.Split(equation, pattern);
             MatchCollection matches = Regex.Matches(equation, pattern);
 
-            /*----------테스트------------
-            foreach (string s in splited)
-            { Console.WriteLine(s); }
-            foreach (Match s in matches)
-            { Console.WriteLine(s); }
-            */
 
-            /*
-            //만약 두 개의 항과 하나의 연산자가 없는 경우 계산 불가하므로 패스.
-            // (미입력 or 53 과 같은 경우) (입력은 있으나 두 번째 숫자가 입력되지 않은 경우)
-            if(splited.Length <= 1 || (splited.Length > 1 && splited[1] == ""))
+            //예외 처리
+            if(splited.Length <= 1)
             {
-                Console.WriteLine(splited[0]);
-                Console.WriteLine(splited[1]);
-
-                return "";
-            }*/
-            
-
+                return 0;
+            }
             //여기 a, b 값이랑 연산자 넣어뒀습니다! 이 값들 활용해서 계산해주는 함수들 만들어보셔요!
             int a = int.Parse(splited[0]);
             int b = int.Parse(splited[1]);
             char op = matches[0].ToString()[0];
 
-            
             //Console.WriteLine($"{a} {op} {b}"); //test code. Console 창에서 확인해보세요!
 
 
