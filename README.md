@@ -143,6 +143,6 @@ https://www.notion.so/23f86b77e264809c85e2dac1cfd021fe?source=copy_link
     
 - 자동 계산 함수
     
-    ![image.png](image%2011.png)
+    ![image.png]((Assets/image%2011.png)
     
     if문 + switch문을 통해 숫자 + 연산자 + 숫자 형태의 수식을 자동으로 계산하는 함수(추가 연산자를 누를경우 발생)
