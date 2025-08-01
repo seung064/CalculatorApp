@@ -3,7 +3,7 @@
 기술 스택:  
 C#, Winform   
 
-프로젝트 링크:  
+notion 링크:  
 https://www.notion.so/23f86b77e264809c85e2dac1cfd021fe?source=copy_link
 
 프로젝트 시작:   
